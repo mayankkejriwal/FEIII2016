@@ -63,9 +63,9 @@ public class BlockPurging {
 	
 	public static void main(String[] args){
 		
-		JaccardMatcher.submissionFFIECLEI(rootFolder+"FFIEC-homogenized.csv", 
-				rootFolder+"LEI-homogenized.csv", 
-				rootFolder+"submissions\\");
+		JaccardMatcher.submissionLEISEC(rootFolder+"submissions\\UT_AUSTIN_FFIEC_LEI_SEC_TP_3", 
+				rootFolder+"submissions\\UT_AUSTIN_LEI_SEC_TP_3" 
+				);
 	
 		//test_printPairsCompleteness();
 		//test_printReductionRatio();
